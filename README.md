@@ -2,6 +2,10 @@
 timesys factory build environment
 ## How to use
 ```
+cd $PROJECT_ROOT
+```
+
+```
 docker run -t --rm -v $PWD:/home/worker/building ghostylee/factorybuilder make
 ```
 
