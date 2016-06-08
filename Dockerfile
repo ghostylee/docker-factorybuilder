@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
         libgtk2.0-dev libmpfr-dev libncurses5-dev libperl-dev libsdl1.2-dev libtool libusb-dev \
         libxml-parser-perl lzop python-dev python-libxml2 ruby scons sharutils swig texinfo \
         texlive-extra-utils texlive-latex3 unzip wget x11-xkb-utils zip zlib1g \
-        lib32ncurses5 lib32z1 lib32z1-dev libc6-dev-i386 ia32-libs sudo
+        lib32ncurses5 lib32z1 lib32z1-dev libc6-dev-i386 ia32-libs sudo bc
 
 RUN ln -sfn /bin/bash /bin/sh
 
