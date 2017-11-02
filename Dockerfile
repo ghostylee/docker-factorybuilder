@@ -6,7 +6,6 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg-reconfigure -p critical dash
 
 COPY sources.list /etc/apt/sources.list
-
 RUN apt-get update && apt-get install -y \
         automake binutils-dev bison build-essential bzip2 ecj fastjar \
         flex gawk gconf2 gettext gperf groff gtk-doc-tools guile-1.8 icon-naming-utils indent \
