@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN dpkg-reconfigure -p critical dash
 
 COPY sources.list /etc/apt/sources.list
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --force-yes \
         automake binutils-dev bison build-essential bzip2 ecj fastjar \
         flex gawk gconf2 gettext gperf groff gtk-doc-tools guile-1.8 icon-naming-utils indent \
         libc6-dev libdbus-glib-1-dev libexpat1-dev libglade2-dev libgmp3-dev libgtk2.0-bin \
