@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --force-yes \
         libxml-parser-perl lzop python-dev python-libxml2 ruby scons sharutils swig texinfo \
         texlive-extra-utils texlive-latex3 unzip wget x11-xkb-utils zip zlib1g \
         lib32ncurses5 lib32z1 lib32z1-dev libc6-dev-i386 ia32-libs sudo bc \
-        cmake libcppunit-dev gcc-4.9
+        cmake libcppunit-dev gcc-4.9 g++-4.9
 
 RUN ln -sfn /bin/bash /bin/sh
 
